@@ -1,0 +1,123 @@
+[
+  {
+    "id": 1,
+    "name":"Kamal Resort",
+    "contact":"7744987886",
+    "location":"Nagpur , Maharastra",
+    "features":["Free wifi" , "Cabs available"],
+    "rating" : 5,
+    "url" : "https://www.makemytrip.com/hotels/the_kamal_farm_resort-details-shahapur.html",
+    "gmap": "https://maps.app.goo.gl/bG4ka1B5K8DJ3tP16",
+    "img": "hicon5"
+  },
+  {
+    "id": 2,
+    "name":"Baba Inn Resort",
+    "contact":"8777876887",
+    "location":"Mumbai , Maharastra",
+    "features":["Free wifi" , "Free brunch"],
+    "rating" : 3,
+    "url"  : "https://www.makemytrip.com/hotels/baba_inn-details-mahabaleshwar.html",
+    "gmap":"https://maps.app.goo.gl/ddDu3E8QavB1vFok7",
+    "img": "hicon6"
+  },
+  {
+    "id": 3,
+    "name":"Kahani Resort",
+    "contact":"8923674512",
+    "location":"Delhi NCR",
+    "features":["Full AC Room" , "Free brunch"],
+    "rating" : 3,
+    "url" : "https://kahaniparadise.com/",
+    "gmap":"https://maps.app.goo.gl/ddDu3E8QavB1vFok7",
+    "img": "hicon7"
+  },
+  {
+    "id": 4,
+    "name":"Gandhi Inn",
+    "contact":"89375924323",
+    "location":"Mumbai, Maharastra",
+    "features":["Free wifi" , "Beach View"],
+    "rating" : 4,
+    "url" : "https://gandhiinn.com/",
+    "gmap":"https://maps.app.goo.gl/9tVcJZb5h3VjaCqU8",
+    "img":  "hicon8"
+  },
+  {
+    "id": 5,
+    "name":"Unravel Resort",
+    "contact":"8877876887",
+    "location":"Kolkata",
+    "features":["Cabs Available" , "Free brunch"],
+    "rating" : 4,
+    "url" : "https://www.vogue.com/fashion-shows/resort-2020/unravel",
+    "gmap":"https://maps.app.goo.gl/AKhF3Z7G57fsoH7b8",
+    "img":  "hicon9"
+  },
+  {
+    "id": 6,
+    "name":"Heaven ",
+    "contact":"8677876887",
+    "location":"Mumbai, Maharastra",
+    "features":["Beach View" , "Free brunch"],
+    "rating" : 3,
+    "url" : "https://www.havenresorts.com/",
+    "gmap":"https://maps.app.goo.gl/Hx4gy4YwzYEhmE8aA",
+    "img":  "hicon10"
+  },
+  {
+    "id": 7,
+    "name":"Outpost",
+    "contact":"8768468325",
+    "location":"Delhi NCR",
+    "features":["Near Airport" , "Honeymoon"],
+    "rating" : 5 ,
+    "url" : "https://outpostalibaug.com/",
+    "gmap":"https://maps.app.goo.gl/AFbzQiFqGCRmZbJMA",
+    "img":  "hicon11"
+
+  },
+  {
+    "id": 8,
+    "name":"Rising Star",
+    "contact":"79979871340",
+    "location":"Kolkata",
+    "features":["Cabs Available" , "Free brunch"],
+    "rating" : 2,
+    "url" : "https://outpostalibaug.com/",
+    "gmap":"https://maps.app.goo.gl/mET3PK9ue6YUDUxLA",
+    "img":  "hicon12"
+  },
+  {
+    "id": 9,
+    "name":"Dual Star",
+    "contact":"987868219",
+    "location":"Mumbai , Maharastra",
+    "features":["Ac Room" , "Free brunch"],
+    "rating" : 2,
+    "url" : "https://outpostalibaug.com/",
+    "gmap":"https://maps.app.goo.gl/992kcRRXVUyr6PYx5",
+    "img":  "hicon13"
+  },{
+  "id": 10,
+  "name":"Total Fun",
+  "contact":"9867523423",
+  "location":"Kolkata",
+  "features":["Ac Room" , "Cabs Available"],
+  "rating" : 4,
+  "url" : "https://outpostalibaug.com/",
+  "gmap":"https://maps.app.goo.gl/Hx4gy4YwzYEhmE8aA",
+  "img":  "hicon14"
+},{
+  "id": 11,
+  "name":"Water Stone",
+  "contact":"9867523422",
+  "location":"Mumbai",
+  "features":["Ac Room" , "Cabs Available"],
+  "rating" : 4,
+  "url" : "https://outpostalibaug.com/",
+  "gmap": "https://maps.app.goo.gl/bG4ka1B5K8DJ3tP16",
+  "img":  "hicon2"
+}
+
+]

@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical">
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+<android.widget.RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+   >
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_margin="16dp"
+        app:cardCornerRadius="8dp"
+        android:id="@+id/cardView">
+
+        <com.smarteist.autoimageslider.SliderView
+            android:id="@+id/imageSlider"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            app:sliderAnimationDuration="600"
+            app:sliderAutoCycleDirection="back_and_forth"
+            app:sliderAutoCycleEnabled="true"
+            app:sliderCircularHandlerEnabled="true"
+            app:sliderIndicatorAnimationDuration="600"
+            app:sliderIndicatorGravity="center_horizontal|bottom"
+            app:sliderIndicatorMargin="15dp"
+            app:sliderIndicatorOrientation="horizontal"
+            app:sliderIndicatorPadding="3dp"
+            app:sliderIndicatorRadius="2dp"
+            app:sliderIndicatorSelectedColor="#5A5A5A"
+            app:sliderIndicatorUnselectedColor="#FFF"
+            app:sliderScrollTimeInSec="1"
+            app:sliderStartAutoCycle="true" />
+    </androidx.cardview.widget.CardView>
+
+
+
+</android.widget.RelativeLayout>
+    <RelativeLayout
+        android:layout_alignBottom="@+id/cardView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/View_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/hotel_title_padding"
+            android:paddingRight="@dimen/hotel_title_padding"
+            android:paddingTop="@dimen/hotel_title_padding"
+            android:textAlignment="center"
+            android:textColor="@color/hotel_title"
+            android:textSize="35sp"
+            android:gravity="center_horizontal" />
+
+        <TextView
+            android:id="@+id/View_location"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/View_title"
+            android:textColor="@android:color/background_dark"
+            android:paddingBottom="@dimen/hotel_rating_padding_bottom"
+            android:paddingLeft="@dimen/hotel_title_padding"
+            android:paddingRight="@dimen/hotel_title_padding"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/View_rating"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/View_location"
+            android:paddingLeft="@dimen/hotel_title_padding"
+            android:paddingRight="@dimen/hotel_title_padding"
+            android:paddingBottom="@dimen/hotel_rating_padding_bottom"
+            android:textColor="@android:color/background_dark"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/View_features"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/View_rating"
+            android:paddingLeft="@dimen/hotel_title_padding"
+            android:paddingRight="@dimen/hotel_title_padding"
+            android:paddingBottom="@dimen/hotel_rating_padding_bottom"
+            android:textColor="@android:color/background_dark"
+            android:textSize="20dp"
+            />
+
+        <TextView
+            android:id="@+id/View_contact"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/View_features"
+            android:paddingLeft="@dimen/hotel_title_padding"
+            android:paddingRight="@dimen/hotel_title_padding"
+            android:paddingBottom="@dimen/hotel_rating_padding_bottom"
+            android:textColor="@android:color/background_dark"
+            android:textSize="20dp" />
+
+
+        <Button
+            android:id="@+id/View_book"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/View_contact"
+            android:layout_marginLeft="250dp"
+            android:layout_marginTop="8dp"
+
+            android:background="@drawable/round"
+            android:bottomLeftRadius="20dp"
+            android:bottomRightRadius="20dp"
+            android:scaleType="centerCrop"
+            android:text="Save"
+            android:textColor="#ffffff"
+            android:textSize="20dp"
+            android:topLeftRadius="20dp"
+            android:topRightRadius="20dp"
+            android:typeface="monospace" />
+
+        <Button
+            android:id="@+id/gmap"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/View_contact"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/round"
+            android:bottomLeftRadius="20dp"
+            android:bottomRightRadius="20dp"
+            android:scaleType="centerCrop"
+            android:text="Gmap"
+            android:layout_marginLeft="30dp"
+            android:textColor="#ffffff"
+            android:textSize="20dp"
+            android:topLeftRadius="20dp"
+            android:topRightRadius="20dp"
+            android:typeface="monospace" />
+
+        <Button
+            android:id="@+id/View_save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/View_book"
+            android:layout_marginLeft="210dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/round"
+            android:scaleType="centerCrop"
+            android:shape="ring"
+            android:text="Call"
+            android:textColor="#ffffff"
+            android:textSize="15dp"
+            android:typeface="monospace"
+
+            />
+
+        <Button
+            android:id="@+id/url"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/View_book"
+            android:layout_marginLeft="90dp"
+            android:layout_marginTop="4dp"
+            android:background="@drawable/round"
+            android:scaleType="centerCrop"
+            android:shape="ring"
+            android:text="Visit"
+
+            android:textColor="#ffffff"
+            android:onClick="openurl"
+            android:textSize="15dp"
+            android:typeface="monospace"
+
+            />
+
+        <TextView
+            android:id="@+id/View_rec"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/View_save"
+            android:layout_centerHorizontal="true"
+            android:paddingLeft="@dimen/hotel_title_padding"
+            android:paddingTop="20dp"
+            android:paddingRight="@dimen/hotel_title_padding"
+            android:paddingBottom="@dimen/hotel_rating_padding_bottom"
+            android:text="Recommendations"
+            android:textColor="@android:color/background_dark"
+            android:textSize="15dp" />
+
+    </RelativeLayout>
+
+    <include layout="@layout/rec_content_main" />
+
+
+
+</LinearLayout>
+</ScrollView>
